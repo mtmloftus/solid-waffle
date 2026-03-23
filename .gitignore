@@ -1,0 +1,66 @@
+# Python virtual environment
+# Recommended name for virtual environment directories is .venv/
+.venv/
+venv/
+env/
+ENV/
+bin/
+include/
+lib/
+lib64/
+local/
+Scripts/
+pyvenv.cfg
+pip-selfcheck.json
+share/
+*.venv
+*.conda
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+junit*.xml
+*.cover
+
+# Sphinx documentation
+docs/_build/
+
+# IDE files and other temporary files
+.idea/
+.vscode/
+*.swp
+*~
+.directory
+.DS_Store
+
+# Environment files
+.env
+
+# Ansible
+# Ignore Ansible retry files, which are generated after a failed run
+*.retry
+
